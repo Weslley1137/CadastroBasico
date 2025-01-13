@@ -5,6 +5,7 @@ public class ContaUsuario{
     private String senhaUsuario;
     private double saldo;
 
+
     public ContaUsuario(String name, String senha) {
         this.nomeUsuario = name;
         this.senhaUsuario = senha;

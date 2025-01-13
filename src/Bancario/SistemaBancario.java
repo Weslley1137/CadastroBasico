@@ -19,10 +19,8 @@ public class SistemaBancario  {
             if (hora >= 6 && hora <= 12) {
                 System.out.println("Primeiramente, bom dia, né? É a base da educação.");
             } else if (hora >= 12 && hora <= 18) {
-
                 System.out.println("Primeiramente, boa tarde, né? É a base da educação.");
             } else {
-
                 System.out.println("Primeiramente, boa noite, né? É a base da educação.");
             }
 
@@ -35,6 +33,10 @@ public class SistemaBancario  {
                 }}catch (InterruptedException e){
                     e.printStackTrace();
                 }
+
+            System.out.println("\nEntrando no Sistema");
+            Thread.sleep(2000);
+
 
             int opcao = 0;
             while (opcao != 3) {
